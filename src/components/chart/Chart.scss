@@ -1,0 +1,42 @@
+.back{
+	margin-top: 10px;
+	margin-left:10px;
+	
+
+	button{
+		padding:7px 15px;
+		border-radius: 5px;
+		border:none;
+		cursor: pointer;
+		background-color: white;
+
+	}
+	
+}
+.Chart{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items:center;
+
+
+	h2{
+
+	}
+
+	button{
+		width: 10%;
+		height: 4%;
+		margin: 15px 0;
+		border:none;
+		background-color:lightblue;
+		padding:7px 0;
+		border-radius: 5px;
+		cursor: pointer;
+
+		&:hover{
+			background-color:blue;
+		}
+	}
+
+}
